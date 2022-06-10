@@ -1,0 +1,28 @@
+.text-small {
+    font-size: 2rem !important;
+    text-align: left;
+    
+  }
+  
+  .custom-separator {
+    width: 9rem;
+    height: 10px;
+    border-radius: 4rem;
+    text-align: center;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.3em;
+  }
+  
+  body {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    color: skyblue;
+    min-height: 100vh;
+    text-align: center;
+  }
+  a:hover{
+      color: yellow;
+  }

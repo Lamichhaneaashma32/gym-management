@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+div#welcome{
+    font-family: poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background-color: #204969;
+}
+div#welcome button{
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 8px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#logout{
+    color: black;
+    background: linear-gradient(to right, #f8b3b5 0%, #f8b3b5 50%, #ffffff 50%, #ffffff 100%);;
+    border: 3px solid #284cff;
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    background-repeat: repeat-x;
+    transition: 0.11s ease;
+}
+#logout:hover{
+    background-position: 0 0;
+    cursor: pointer;
+}

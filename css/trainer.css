@@ -1,0 +1,114 @@
+body{
+    background: #333333;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+/*-------------- This is for trainers section --------------*/
+
+
+.trainer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.trainer-col{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+.trainer-col img{
+    width: 300px;
+    border-radius: 15px;
+    height: 290px;
+}
+
+.trainer-col p{
+    padding: 0;
+}
+
+.trainer-col h4{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+/* -------- This is for  Contact us section------------- */
+
+.contact{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h1{
+    color: yellow;
+    font-style: italic;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
+.contact .contact-img img{
+    width: 15%;
+    margin: -1% 2%;
+}
+.contact .contact-img p{
+    color: white;
+}
+.contact .contact-img a:hover{
+    color: yellow;
+}
+.icons .fa{
+    color: yellow;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icons .fa:hover{
+    color: skyblue;
+}
+
+@media(max-width: 700px){
+    .contact h1{
+        font-size: 24px;
+        
+    }
+}
+/* --- This is the footer CSS --- */
+.foot{
+    width: 100%;
+    min-height: 150px;
+    background: #0c3e68;
+}
+.foot p{
+    text-align: center;
+    padding-top: 59px;
+    color: yellow;
+    font-style: italic;
+    font-size: 20px;
+    justify-content: center;
+    
+
+}
+.foot img{ 
+    width: 150px;
+    float: right;
+    padding-top: 8px;
+    
+}
